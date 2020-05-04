@@ -1,194 +1,238 @@
-.s{
-    margin-bottom: 0;
-    font-size: 25px;
-    color: rgb(170, 170, 170);
-    line-height: 20px;
-    font-weight: normal;
-    font-style: normal;
-    margin-top: -4%;
-    margin-left: 17%;
-    }
-    .box{
-    margin-bottom: 0;
-    font-size: 25px;
-    background-color: rgb(235, 235, 235);
-    line-height: 20px;
-    font-weight: normal;
-    font-style: normal;
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{    /*头部搜索框+2图标*/
+    height: 70px;
+    background-color: #fff;
+}
+.searchbox{    /*搜索框*/
+    height: 28px;
+    margin: 27px 10px 10px;
+    padding-left: 38px;
+    width: 63%;
+    color: rgb(148, 144, 144);
+    background: url("images/search.png") no-repeat 15px 5px;
+    background-size: 20px;
+    background-color: rgb(240, 240, 245);
+    border-radius: 25px;
+    border: none;
+}
+/* 右上角两个图标 */
+.message_icon{    
+    position: absolute;
+    top: 24px;
+    right: 12%;
+}
+.scan_icon{ 
+    position: absolute;
+    top: 29px;
+    right: 4%;
+}
+/* 内容模块 */
+/* 找。。模块 */
+.finder{
+    background-color: #fff;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.finder a{
+    color: rgb(137, 137, 141);
+}
+
+.find_docter{
+    width: 60px;
+    margin-top: 10px;
+    position: absolute;
+    left: 7%;
+
+}
+.find_medical{
+    width: 60px;
+    margin-top: 10px;
+    position: absolute;
+    left: 42%;
+}
+.find_hospital{
+    width: 60px;
+    margin-top: 10px;
+    position: absolute;
+    right: 7%;
+}
+
+/* 紧急呼救+智能助手 */
+
+.AIfunction{
+    margin: 10px 0;
+}
+.urgent_help{
+    position: absolute;
+    left: 0;
     height: 55px;
-    width: 500px;
-    margin-top: 15%;
-    margin-left: 10%;
-    border-radius: 35px;
-    }
-    .lunbotu{
-    margin-top: 6%;
-    margin-left: 6%;
-    height: 600px;    
-    }
-    .sousuo{
-    width: 30px;
-    height: 30px;
-    }
-    .juxing{
-    width: 500px;
-    height: 250px;
-    }
-    .yisheng{
-    margin-left: 8%;
-    margin-top: 10%;
-    }
-    .yiliaoxiang{
-    margin-left: 20%;
-    }
-    .yiyuan{
-        margin-left: 20%;
-    }
-    .zhaoyisheng{
-    font-size: 42px;
-    margin-left: 8%;
-    color: #B2B2B2;
-    display:inline-table
-    }
-    .zhaoyaoping{
-    font-size: 42px;
-    color: #B2B2B2;
-    display:inline-table;
-    margin-left: 22%;
-    }
-    .zhaoyiyuan{
-    font-size: 42px;
-    color: #B2B2B2;
-    display:inline-table;
-    margin-left: 24%;
-    }
-    .jingjihujiu{
-    width:460px;
-    height:220px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0px;
-    margin-left: 1%;
-    margin-top: 5%; 
-    float:left;
-    }
-    .hujiu{
-    margin-left: 45%;
-    font-size: 45px;
-    margin-top: 20%;
-    color: rgba(253, 118, 120, 1);
-    }
-    .zhinengzhushou{
-    width: 460px;
-    height: 220px;
-    float: right;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-right: 1%;
-    }
-    .zhushou{
-    margin-left: 45%;
-    font-size: 45px;
-    margin-top: 20%;
-    color: rgba(40, 184, 161, 1);
-    }
-    .jiankangshuju{
-    margin: 10%;
-    font-size: 45px;
-    font-weight: 700;
-    }
-    .jiankangshi{
-    width:460px;
-    height:220px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0px;
-    margin-left: 1%;
-    margin-top: 1%; 
-    float:left;
-    }
-    .binglifenxi{
-    width:460px;
-    height:220px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0px;
-    margin-right: 1%;
-    margin-top: 1%; 
-    float:right;
-    }
-    .yongyaoqingdan{
-    width:460px;
-    height:220px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0px;
-    margin-left: 1%;
-    margin-top: 1%; 
-    float:left;
-    }
-    .zhenduanjieguo{
-    width:460px;
-    height:220px;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(228, 227, 227);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0px;
-    margin-right: 1%;
-    margin-top: 1%; 
-    float:right;
-    }
-    .sanzi{
-        font-size: 48px;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-    .sizi{
-        font-size: 48px;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-    .jieshao{
-    font-size: 34px;
-    margin-top: -6%;
-    margin-left: 10%;
-    color: rgb(187, 187, 187);
-    }
+    background-color: #fff;
+    width: 50%;
+    padding: 15px 0;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 5px;
+
+}
+.intelligence_helper{
+    width: 50%;
+    position: absolute;
+    height: 55px;
+    padding: 15px 0;
+    background-color: #fff;
+    right: 0;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 5px;
+}
+/* 紧急呼救+智能助手，文字 */
+.urgent{
+    color: rgb(223, 66, 39);
+    position: absolute;
+    top: 32px;
+}
+.helper{
+    color: #28B8A1;
+    position: absolute;
+    top: 32px;
+}
+
+/* 健康数据 */
+
+.health{      /*健康数据 加粗的字位置*/ 
+    margin: 110px 10px 10px;
+}
+
+h4{
+    font-weight: 400;
+}
+/* 健康史+病例分析 */
+.health_box1 {
+    height: 50px;
+    background-color: #fff;
+    padding: 15px 0;
+    border: 1px solid rgb(240, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px rgb(212, 211, 211);
+
+}
+.health_history{
+    position: absolute;
+    left: 5%;
+}
+.health_analyse{
+    position: absolute;
+    right: 23%;
+    top: 535px;
+}
+/* 用药清单+诊断结果 */
+.health_box2 {
+    height: 50px;
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px rgb(212, 211, 211);
+}
+.medical_list{
+    position: absolute;
+    left: 5%;
+}
+.health_result{
+    position: absolute;
+    right: 23%;
+    top: 617px;
+}
+/* 健康数据里的 四个图标 位置 */
+.health_icon1,.health_icon3{
+    position: absolute;
+    left: 33%;
+}
+.health_icon2,.health_icon4{
+    position: absolute;
+    right: 4%;
+}
+ p{
+    color: rgb(179, 174, 174);
+    margin-top: 10px;
+    font-size: 13px;
+}
+/* 健康知识 */
+.knowledge{
+    margin: 14px 10px;
+}
+.health_study{
+    height: 380px;
+    background-color: #fff;
+    padding: 0 30px 0 10px;
+    box-shadow: 0 1px 5px 1px rgb(212, 211, 211);
+}
+.study1 h5,.study2 h5,.study3 h5{
+    font-weight: 400;
+}
+.study1,.study2,.study3{
+    padding: 15px 0;
+}
+
+
+
+/*底部导航栏*/
+
+.footer{         
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;        /*固定底部导航栏*/
+    bottom: 0px;
+    font-size: 13px;
+    box-shadow: 0 -1px 5px 1px rgb(224, 222, 222);
+    padding-top: 10px;
+}
+.tb1,.tb2,.tb3,.tb4,.text1,.text2,.text3,.text4{
+    position: absolute;
+
+}
+/* 导航图标 位置 */
+.tb1{
+    left: 6%;
+}
+.tb2{
+    left: 32%;
+}
+.tb3{
+    right: 31%;
+}
+.tb4{
+    right: 6%;
+}
+/* 导航里的文字 位置 */
+
+.text1,.text2,.text3,.text4{
+    bottom: 10px;
+    color: rgb(168, 167, 167);
+    
+}
+.text1{
+    left: 7%;
+}
+.text2{
+    left: 30%;
+}
+.text3{
+    right: 31%;
+}
+.text4{
+    right: 7%;
+}
