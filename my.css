@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+}
+li{
+    list-style: none;
+    color: black;
+}
+/* 头部模块 */
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 1px rgb(233, 232, 232);
+}
+.my{
+    text-align: center;
+    padding-top: 20px;
+}
+.set_icon{
+    position: absolute;
+    top: 20px;
+    right: 17%;
+}
+.warn_icon{
+    position: absolute;
+    top: 20px;
+    right: 8%;
+}
+/* 用户头模块 */
+.userbox{
+    position: relative;
+    margin-top: 60px;
+    height: 120px;
+}
+.head_icon{
+    position: absolute;
+    top: 30px;
+    left: 5%;
+}
+.name{
+    position: absolute;
+    top: 34px;
+    left: 25%;
+}
+.place{
+    position: absolute;
+    top: 65px;
+    left: 25%;
+    font-size: 13px;
+    color: rgb(150, 148, 147);
+}
+.arrow_icon{
+    position: absolute;
+    right: 7%;
+    top: 40px;
+}
+
+/* 中间2模块 */
+.middlebox{
+    position: relative;
+    height: 90px;
+    border: 1px solid rgb(226, 225, 225);
+}
+.family{
+    position: relative;
+    width: 50%;
+}
+.tie{
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+.family_icon{
+    position: absolute;
+    top: 25px;
+    left: 5%;
+}
+.people{
+    position: absolute;
+    top: 24px;
+    left: 33%;
+    color: black;
+}
+.peopleword{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    color: rgb(183, 184, 185);
+    font-size: 13px;
+}
+.tie_icon{
+    position: absolute;
+    top: 25px;
+    left: 5%;
+
+}
+.instrument{
+    position: absolute;
+    top: 24px;
+    left: 33%;
+    color: black;
+}
+.instrument_word{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    color: rgb(183, 184, 185);
+    font-size: 13px;
+}
+
+/* 中间列表块 */
+.listbox{
+    height: 550px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.listbox li{
+    position: relative;
+    margin: 22px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(85, 85, 84);
+
+}
+.listbox a{
+    color: rgb(85, 85, 84);
+}
+.icons{
+    position: relative;
+    top: 9px;
+    padding-right: 14px;
+}
+.right_icon{
+    position: absolute;
+    top: 9px;
+    right: 5%;
+}
+
+/*底部导航栏*/
+
+.footer{         
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;        /*固定底部导航栏*/
+    bottom: 0px;
+    font-size: 13px;
+    box-shadow: 0 -1px 5px 1px rgb(224, 222, 222);
+    padding-top: 10px;
+}
+.tb1,.tb2,.tb3,.tb4,.text1,.text2,.text3,.text4{
+    position: absolute;
+
+}
+/* 导航图标 位置 */
+.tb1{
+    left: 6%;
+}
+.tb2{
+    left: 32%;
+}
+.tb3{
+    right: 31%;
+}
+.tb4{
+    right: 6%;
+}
+/* 导航里的文字 位置 */
+
+.text1,.text2,.text3,.text4{
+    bottom: 10px;
+    color: rgb(168, 167, 167);
+    
+}
+.text1{
+    left: 7%;
+}
+.text2{
+    left: 30%;
+}
+.text3{
+    right: 31%;
+}
+.text4{
+    right: 7%;
+}

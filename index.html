@@ -4,10 +4,28 @@
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>首页</title>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+
+    <script type="text/javascript">
+        var index=0;
+        //改变图片
+        function ChangeImg() {
+            index++;
+            var a=document.getElementsByClassName("img-slide");
+            if(index>=a.length) index=0;
+            for(var i=0;i<a.length;i++){
+                a[i].style.display='none';
+            }
+            a[index].style.display='block';
+        }
+        //设置定时器，每隔两秒切换一张图片
+        setInterval(ChangeImg,3000);
+    </script>
+
+
     <!--头部搜索+图标-->
     <div class="header">
         <input type="text" class="searchbox" placeholder="搜索症状&nbsp;/疾病&nbsp;/药品&nbsp;/医生&nbsp;/科室&nbsp;"></input>
@@ -19,9 +37,13 @@
     <div class="content">  
 
         <!--轮播图-->
-        <div class="rotation">
-            <a href="#"><img src="images/rotation.png" width="100%" height="200px"/></a>
-        </div>
+            
+            <div class="imgBox">
+                <img class="img-slide img1" src="images/1.jpg" height="200px" alt="1">
+                <img class="img-slide img2" src="images/2.jpg" height="200px" alt="2">
+                <img class="img-slide img3" src="images/3.jpg" height="200px" alt="3">
+            </div>
+
         <!--找（医生，药，医院）-->
         <div class="finder">
             <div class="find_docter"><a href="#"><img src="images/docter.png" width="50px" />找医生</a></div>
@@ -36,40 +58,41 @@
             <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/urgent.png" width="50px" /><span class="urgent">&nbsp;&nbsp;紧急呼救</span></a>
         </div>
         <div class="intelligence_helper">
-           <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/helper.png" width="50px" /><span class="helper">&nbsp;&nbsp;智能助手</span></a>
+           <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/helper.png" width="45px" /><span class="helper">&nbsp;&nbsp;智能助手</span></a>
         </div>
 
     </div>
 <!-- 健康数据 -->
     <div class="health"><strong>健康数据</strong></div>
+
 <!-- 健康史+病例分析 -->
     <div class="health_box1">
-
        <div> <a href="#" class="health_history">
             <h4>健康史</h4>
             <p>过往健康病史</p>
         </a></div>
-        <img src="images/health1.png" class="health_icon1" width="55px" />
+        <a href="#"><img src="images/health1.png" class="health_icon1" width="56px" /></a>
 
         <div><a href="#" class="health_analyse">
             <h4>病例分析</h4>
             <p>AI精准分析</p>
         </a></div>
-        <img src="images/health2.png" class="health_icon2" width="45px" />
+        <a href="#"><img src="images/health2.png" class="health_icon2" width="45px" /></a>
     </div>
+
 <!-- 用药+结果 -->
     <div class="health_box2">
         <div> <a href="#" class="medical_list">
             <h4>用药清单</h4>
             <p>最合适的建议</p>
         </a></div>
-        <img src="images/health3.png" class="health_icon3" width="55px" />
+       <a href="#"><img src="images/health3.png" class="health_icon3" width="55px" /></a>
 
         <div><a href="#" class="health_result">
             <h4>诊断结果</h4>
             <p>医检报告</p>
         </a></div>
-        <img src="images/health4.png" class="health_icon4" width="45px" />
+        <a href="#"><img src="images/health4.png" class="health_icon4" width="48px" /></a>
 
     </div>
 <!-- 健康知识 -->
@@ -77,21 +100,26 @@
 
     <div class="health_study">
         <div class="study1">
-            <h5>宅家太久颈痛肩背痛怎么办 缓解肩颈痛的4个方法</h5>
-            <p>最近，网上一篇关于缓解肩颈疼痛的文章很火...</p>
-            
+            <a href="#"><h5>宅家太久颈痛肩背痛怎么办 缓解肩颈痛的4个方法</h5>
+            <p>最近，网上一篇关于缓解肩颈疼痛的文章很火,伴随着人们的生活水平的提高和工作压力的加大，...</p>
+            <img src="images/sucai1.jpg" width="85px" />
+        </a>
         </div>
 
         <div class="study2">
-            <h5>保健食品知识宣传（一）：什么是保健品</h5>
+            <a href="#"><h5>保健食品知识宣传（一）：什么是保健品</h5>
             <p>保健品是现代人所热衷的养生物品之一。伴随着人们的生活水平的提高和工作压力的加大，“亚健康”人群的比例越来越大... </p>
-
+            <img src="images/sucai2.jpg" width="85px" />
+           
+        </a>
         </div>
 
         <div class="study3">
-            <h5>保健食品知识宣传（二）：如何正确挑选合适的保健品</h5>
+            <a href="#"><h5>保健食品知识宣传（二）：如何正确挑选合适的保健品</h5>
             <p>保健品是现代人所热衷的养生物品之一。伴随着人们的生活水平的提高和工作压力的加大，“亚健康”人群的比例越来越大... </p>
-
+            <img src="images/sucai1.jpg" width="85px" />
+           
+        </a>
         </div>
 
     </div>
@@ -102,22 +130,22 @@
      <!--底部导航栏-->
     <div class="footer">
         <div class="tb1">
-            <a href="#"><img src="images/tb1_green.png" width="30px" /></a>
+            <a href="index.html"><img src="images/tb1_green.png" width="30px" /></a>
         </div>
         <div class="tb2">
-            <a href="#"><img src="images/tb2.png" width="30px" /></a>
+            <a href="rail.html"><img src="images/tb2.png" width="30px" /></a>
         </div>
         <div class="tb3">
-           <a href="#"><img src="images/tb3.png" width="30px" height="28px" /></a>
+           <a href="community.html"><img src="images/tb3.png" width="30px" height="28px" /></a>
        </div>
         <div class="tb4">
-            <a href="#"><img src="images/tb4.png" width="32px" /></a>
+            <a href="my.html"><img src="images/tb4.png" width="32px" /></a>
         </div>
 
-        <div class="text1">首页</div>
-        <div class="text2">家庭围栏</div>
-        <div class="text3">社区</div>
-        <div class="text4">我的</div>
+        <div class="text1"><a href="index.html">首页</a></div>
+        <div class="text2"><a href="rail.html">家庭围栏</a></div>
+        <div class="text3"><a href="community.html">社区</a></div>
+        <div class="text4"> <a href="my.html">我的</a></div>
 
     </div>
 

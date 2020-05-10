@@ -1,8 +1,8 @@
 # demo
 
-Í¼Æ¬·ÅÔÚimagesÎÄ¼þ¼ÐÀï£¬È¡Â·¾¶µÄÊ±ºòÓÃ images/img.png      //imgÒªÌæ»»
-1.µ×²¿µ¼º½html´úÂë: 
-   <!--µ×²¿µ¼º½À¸-->
+Í¼Æ¬ï¿½ï¿½ï¿½ï¿½imagesï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï£¬È¡Â·ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ images/img.png      //imgÒªï¿½æ»»
+1.ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½htmlï¿½ï¿½ï¿½ï¿½: 
+   <!--ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
     <div class="footer">
         <div class="tb1">
             <a href="#"><img src="images/tb1_green.png" width="30px" /></a>
@@ -17,21 +17,21 @@
             <a href="#"><img src="images/tb4.png" width="32px" /></a>
         </div>
 
-        <div class="text1">Ê×Ò³</div>
-        <div class="text2">¼ÒÍ¥Î§À¸</div>
-        <div class="text3">ÉçÇø</div>
-        <div class="text4">ÎÒµÄ</div>
+        <div class="text1">ï¿½ï¿½Ò³</div>
+        <div class="text2">ï¿½ï¿½Í¥Î§ï¿½ï¿½</div>
+        <div class="text3">ï¿½ï¿½ï¿½ï¿½</div>
+        <div class="text4">ï¿½Òµï¿½</div>
 
     </div>
-2.µ¼º½À¸css´úÂë£º
-/*µ×²¿µ¼º½À¸*/
+2.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cssï¿½ï¿½ï¿½ë£º
+/*ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
 .footer{         
     width: 100%;
     height: 60px;
     background-color: #fff;
     z-index: 100;
-    position: fixed;        /*¹Ì¶¨µ×²¿µ¼º½À¸*/
+    position: fixed;        /*ï¿½Ì¶ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
     bottom: 0px;
     font-size: 13px;
     box-shadow: 0 -1px 5px 1px rgb(224, 222, 222);
@@ -41,7 +41,7 @@
     position: absolute;
 
 }
-/* µ¼º½Í¼±ê Î»ÖÃ */
+/* ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ Î»ï¿½ï¿½ */
 .tb1{
     left: 6%;
 }
@@ -54,7 +54,7 @@
 .tb4{
     right: 6%;
 }
-/* µ¼º½ÀïµÄÎÄ×Ö Î»ÖÃ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Î»ï¿½ï¿½ */
 
 .text1,.text2,.text3,.text4{
     bottom: 10px;
@@ -74,15 +74,15 @@
     right: 7%;
 }
 
-ÒÆ¶¯¶ËÊÊÅä´úÂë £º
+ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-µ÷ÓÃcss´úÂë£º
-<link rel="stylesheet" href="home.css">    //home ÒªÌæ»»
-Í¼Æ¬¾¡Á¿Ó¢ÎÄÃüÃû
+ï¿½ï¿½ï¿½ï¿½cssï¿½ï¿½ï¿½ë£º
+<link rel="stylesheet" href="home.css">    //home Òªï¿½æ»»
+Í¼Æ¬ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
-Ê×Ò³ home               .html      .css
-¼ÒÍ¥Î§À¸ rail             .html      .css
-ÉçÇø community      .html      .css
-ÎÒµÄ my                   .html      .css
+ï¿½ï¿½Ò³ index              .html      .css
+ï¿½ï¿½Í¥Î§ï¿½ï¿½ rail             .html      .css
+ï¿½ï¿½ï¿½ï¿½ community      .html      .css
+ï¿½Òµï¿½ my                   .html      .css

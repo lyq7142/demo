@@ -9,7 +9,7 @@ html{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(168, 167, 167);
 }
 
 .header{    /*头部搜索框+2图标*/
@@ -40,6 +40,28 @@ a{
     right: 4%;
 }
 /* 内容模块 */
+/* 轮播图 */
+.imgBox{
+    width: 100%;
+    height: 200px;
+}
+
+.imgBox img{
+    width: 100%;
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+.img3{
+    display: none;
+}
+
 /* 找。。模块 */
 .finder{
     background-color: #fff;
@@ -74,6 +96,7 @@ a{
 /* 紧急呼救+智能助手 */
 
 .AIfunction{
+    position: relative;
     margin: 10px 0;
 }
 .urgent_help{
@@ -118,27 +141,32 @@ a{
 h4{
     font-weight: 400;
 }
+
 /* 健康史+病例分析 */
 .health_box1 {
+    position: relative;
     height: 50px;
     background-color: #fff;
     padding: 15px 0;
     border: 1px solid rgb(240, 238, 238);
     border-radius: 5px;
     box-shadow: 0 1px 5px 1px rgb(212, 211, 211);
-
 }
 .health_history{
     position: absolute;
     left: 5%;
+    color: black;
 }
 .health_analyse{
     position: absolute;
     right: 23%;
-    top: 535px;
+    top: 15px;
+    color: black;
 }
+
 /* 用药清单+诊断结果 */
 .health_box2 {
+    position: relative;
     height: 50px;
     background-color: #fff;
     padding: 15px 0;
@@ -148,11 +176,15 @@ h4{
 .medical_list{
     position: absolute;
     left: 5%;
+    color: black;
+
 }
 .health_result{
     position: absolute;
     right: 23%;
-    top: 617px;
+    top: 15px;
+    color: black;
+
 }
 /* 健康数据里的 四个图标 位置 */
 .health_icon1,.health_icon3{
@@ -161,7 +193,7 @@ h4{
 }
 .health_icon2,.health_icon4{
     position: absolute;
-    right: 4%;
+    right: 5%;
 }
  p{
     color: rgb(179, 174, 174);
@@ -173,16 +205,34 @@ h4{
     margin: 14px 10px;
 }
 .health_study{
-    height: 380px;
+    height: 450px;
     background-color: #fff;
-    padding: 0 30px 0 10px;
     box-shadow: 0 1px 5px 1px rgb(212, 211, 211);
+    padding-top: 15px;
 }
-.study1 h5,.study2 h5,.study3 h5{
+.health_study h5{
+    position: absolute;
+    left: 5%;
     font-weight: 400;
+    color: black;
 }
 .study1,.study2,.study3{
-    padding: 15px 0;
+    position: relative;
+    height: 120px;
+
+}
+
+.health_study p{
+    position: absolute;
+    left: 5%;
+    padding-top: 20px;
+    width: 63%;
+
+}
+.health_study img{
+    position: absolute;
+    right: 4%;
+    margin-top: 28px;
 }
 
 
