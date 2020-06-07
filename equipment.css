@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 头 */
+header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 1px 4px 1px rgb(243, 242, 242);
+}
+header .back{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+header div{
+    text-align: center;
+    margin-top: 25px;
+}
+/* 主体部分 */
+.box1{
+    position: relative;
+    width: 95%;
+    height: 285px;
+    margin: 85px auto 20px;
+    box-shadow: 1px 1px 5px 1px rgb(235, 230, 230);
+    border-radius: 5px;
+}
+h4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(148, 146, 146);
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.box1 .wear{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-weight: 700;
+    color: rgb(102, 108, 112);
+
+}
+.box1 .home{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    font-weight: 700;
+    color: rgb(102, 108, 112);
+
+}
+.leftbox{
+    position: relative;
+    top: 90px;
+    left: 1%;
+    width: 48%;
+    height: 65px;
+    background-color: rgb(233, 230, 230);
+    box-shadow: 0 0 2px 1px rgb(235, 232, 232);
+    border-radius: 5px;
+}
+.leftbox p{
+    position: absolute;
+    top: 21px;
+    left: 8%;
+    font-size: 15px;
+    color: rgb(79, 80, 82);
+}
+.leftbox img{
+    position: absolute;
+    top: 18px;
+    right: 8%;
+}
+.rightbox{
+    position: relative;
+    top: 25px;
+    left: 51%;
+    width: 48%;
+    height: 65px;
+    background-color: rgb(233, 230, 230);
+    box-shadow: 0 0 2px 1px rgb(235, 232, 232);
+    border-radius: 5px;
+}
+.rightbox img{
+    position: absolute;
+    top: 7px;
+    left: 7%;
+}
+ .rightbox p{
+    position: absolute;
+    font-size: 13px;
+    top: 20px;
+    right: 8%;
+}
+.rightbox i{
+    position: absolute;
+    top: 43px;
+    left: 7%;
+    font-style: normal;
+    color: rgb(104, 104, 104);
+    font-size: 12px;
+} 
+.box2{
+    position: relative;
+    width: 95%;
+    height: 240px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px 1px rgb(235, 232, 232);
+    border-radius: 5px;
+}
+.box2 a{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    color: rgb(92, 91, 91);
+    font-size: 14px;
+}
+.box2 .camera1{
+    position: relative;
+    width: 95px;
+    height: 90px;
+    top: 60px;
+    left: 20px;
+    border-radius: 5px;
+    background-color:rgb(241, 238, 238);
+    box-shadow: 0 0 2px 1px rgb(235, 232, 232);
+
+}
+.camera1 img{
+    position: absolute;
+    top: 5px;
+    left: 17px;
+}
+.camera1 p{
+    position: absolute;
+    top: 66px;
+    left: 15px;
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+}
+.box2 .camera2{
+    position: relative;
+    width: 95px;
+    height: 90px;
+    top: -30px;
+    left: 140px;
+    border-radius: 5px;
+    background-color:rgb(241, 238, 238);
+}

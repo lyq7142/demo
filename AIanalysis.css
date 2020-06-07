@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* 头 */
+header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 1px 4px 1px rgb(243, 242, 242);
+}
+header .back{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+header div{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* 主体内容 */
+.content_box{
+    position: relative;
+    width: 88%;
+    height: 500px;
+    margin: 85px auto 10px;
+    box-shadow: 1px 1px 5px 1px  rgb(225, 226, 226);
+    border-radius: 10px;
+}
+.content_box h4{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+.content_box h4 div{
+    position: absolute;
+    top: 1px;
+    left: -9px;
+    height: 20px;
+    width: 2px;
+    background: rgb(171, 189, 223);
+}
+.content_box p{
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    font-size: 14px;
+}
+.content_blue{
+    position: relative;
+    width: 97%;
+    height: 405px;
+    margin: 0 auto;
+    top: 90px;
+    background-color: rgb(229, 241, 252);
+    border-radius: 10px;
+}
+.content_blue img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.content_blue span{
+    position: absolute;
+    top: 22px;
+    left: 62px;
+    font-size: 15px;
+    color: rgb(55, 137, 231);
+}
+.health{
+    position: relative;
+    top: 50px;
+}
+.health p{
+    position: absolute;
+    top: 12px;
+    left: 27px;
+}
+.health ul{
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    line-height: 22px;
+    font-size: 13px;
+}
+.analysis{
+    position: relative;
+    top: 200px;
+}
+.analysis .AIhead{
+    position: absolute;
+    top: 20px;
+    left: 27px;
+}
+.analysis .AItips{
+    position: absolute;
+    left: 40px;
+    width: 77%;
+    font-size: 13px;
+    line-height: 21px;
+}
+.content_blue .more{
+    position: absolute;
+    top: 363px;
+    left: 44%;
+    font-size: 14px;
+    color: rgb(41, 134, 196);
+}
+.content_blue .more img{
+    position: absolute;
+    left: 35px;
+    top: 5px;
+
+}
